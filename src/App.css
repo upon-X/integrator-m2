@@ -1,0 +1,64 @@
+html{
+   box-sizing: border-box;
+}
+
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+
+.noLinkText{
+   text-decoration: none;
+}
+
+.App {
+
+}
+.noPointer{
+   pointer-events: none;
+}
+
+.detailCard{
+   margin-top: 50px;
+   text-align: center;
+   color:aliceblue;
+   background-color: rgba(0, 0, 0, 0.49);
+   /* BoxShadow */
+      -webkit-box-shadow: 0px 0px 24px -4px rgba(0,0,0,0.75);
+      -moz-box-shadow: 0px 0px 24px -4px rgba(0,0,0,0.75);
+      box-shadow: 0px 0px 24px -4px rgba(0,0,0,0.75);
+}
+
+/* Componente completo de Cards */
+.gridCards{
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   grid-template-rows: auto;
+   gap: 15px;
+   margin-top: 15px;
+}
+
+/* Cada Card unica */
+div.botonX{
+   pointer-events: all ;
+}
+div.gridCards__card{
+   grid-column: auto;
+   margin: 0;
+   font-size: 10px;
+   text-transform: uppercase;
+}
+.boxCard{
+   border-radius: 15px;
+   margin: 0;
+   text-align: center;
+}
+.gridCards__card:hover{
+   color:aliceblue;
+   background-color: rgba(0, 0, 0, 0.49);
+   /* BoxShadow */
+      -webkit-box-shadow: 0px 0px 24px -4px rgba(0,0,0,0.75);
+      -moz-box-shadow: 0px 0px 24px -4px rgba(0,0,0,0.75);
+      box-shadow: 0px 0px 24px -4px rgba(0,0,0,0.75);
+}
+
+/* Login */
